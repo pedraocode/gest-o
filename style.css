@@ -1,11 +1,16 @@
 /* Ajustando o layout geral */
+.container {
+    margin: auto;
+    max-width: 2266px;
+}
 .tudo {
     display: flex;
     flex-direction: column; /* Começar como coluna em telas pequenas */
     justify-content: center;
     align-items: center; /* Centraliza o conteúdo horizontalmente */
-    width: 100%;
-    height: 100vh;
+    margin: auto;
+    max-width: 2266px;
+    
     background-color: #f6f6f6;
 }
 
