@@ -196,6 +196,12 @@ a {
     .a, .b {
         display: none;
     }
+    .botaun, .butaun {
+        padding: 15px;
+        width: 100%; /* Garante que o botão não ultrapasse o container */
+        max-width: auto; /* Define um tamanho máximo para o botão */
+        margin: 0 auto; /* Centraliza o botão */
+    }
 }
 
 @media (min-width: 768px) {
@@ -209,14 +215,11 @@ a {
 }
 
 @media (max-width: 767px) {
-    .caixa {
-        padding: 20px;
-    }
 
     .botaun, .butaun {
         padding: 15px;
         width: 100%; /* Garante que o botão não ultrapasse o container */
-        max-width: 400px; /* Define um tamanho máximo para o botão */
+        max-width: auto; /* Define um tamanho máximo para o botão */
         margin: 0 auto; /* Centraliza o botão */
     }
 
